@@ -22,13 +22,12 @@ Open **`config.js`** and fill in what's available:
 ```js
 window.SITE_CONFIG = {
   tutorName: 'Piyush',
-  phone: '+91 98765 43210',            // shown on the site, tap-to-call
-  whatsapp: '919876543210',            // digits only, with country code
-  email: 'hello@yourdomain.com',
+  phone: '+91 90677 09671',            // shown on the site, tap-to-call
+  whatsapp: '919067709671',            // digits only, with country code
+  email: 'gundewarp63@gmail.com',
   formEndpoint: '',                    // see section 2
   location: 'Thane, Maharashtra',
-  photo: 'assets/piyush.jpg',          // see section 3
-  hours: 'Mon–Sat, 4 pm – 8 pm',       // optional
+  photo: 'assets/piyush.webp',         // see section 3
   showPlaceholders: false,             // set to false before going live
 };
 ```

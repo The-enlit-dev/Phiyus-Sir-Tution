@@ -15,7 +15,6 @@
       formEndpoint: '',
       location: 'Thane, Maharashtra',
       photo: '',
-      hours: '',
       showPlaceholders: true,
     },
     window.SITE_CONFIG || {}
@@ -59,7 +58,6 @@
     phone: 'Add phone number',
     whatsapp: 'Add WhatsApp number',
     email: 'Add email address',
-    hours: 'Add session timings',
     location: 'Add location',
   };
 
@@ -68,7 +66,6 @@
     whatsapp: formatWhatsApp(waDigits),
     email: emailAddr,
     location: clean(CONFIG.location),
-    hours: clean(CONFIG.hours),
   };
 
   $$('[data-config-text]').forEach(function (el) {

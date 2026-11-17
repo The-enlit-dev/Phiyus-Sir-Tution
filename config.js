@@ -17,13 +17,13 @@ window.SITE_CONFIG = {
   tutorName: 'Piyush',
 
   // Phone number shown on the site, e.g. '+91 98765 43210'
-  phone: '',
+  phone: '+91 90677 09671',
 
   // WhatsApp number in international format, digits only, e.g. '919876543210'
-  whatsapp: '',
+  whatsapp: '919067709671',
 
   // Contact email, e.g. 'hello@example.com'
-  email: '',
+  email: 'gundewarp63@gmail.com',
 
   // Optional form service endpoint, e.g. 'https://formspree.io/f/xxxxxxx'
   formEndpoint: '',
@@ -32,12 +32,9 @@ window.SITE_CONFIG = {
   location: 'Thane, Maharashtra',
 
   // Path or URL to a profile photograph, e.g. 'assets/piyush.jpg'
-  photo: '',
-
-  // Optional line about availability/hours, e.g. 'Mon–Sat, 4 pm – 8 pm'
-  hours: '',
+  photo: 'assets/piyush.webp',
 
   // Show dashed placeholders for missing details (useful while setting up).
   // Set to false before going live to hide anything not yet filled in.
-  showPlaceholders: true,
+  showPlaceholders: false,
 };
